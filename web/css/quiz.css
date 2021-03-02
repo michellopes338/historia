@@ -1,0 +1,29 @@
+body {
+    overflow: hidden;
+}
+
+.bg {
+    background: linear-gradient(#1D976C, #93F9B9, #fff);
+    width: 200%;
+}
+
+.questions {
+    display: inline-flex;
+}
+
+.question-wrapper {
+    width: 100vw;
+}
+
+.option-wrapper {
+    background-color: #39B50E;
+    padding: 50px 0px;
+    border-radius: 10px;
+    color: #D4C3C3;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.option-wrapper:hover {
+    -webkit-box-shadow:0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3);box-shadow:0 4px 5px 0 rgba(0,0,0,0.14),0 1px 10px 0 rgba(0,0,0,0.12),0 2px 4px -1px rgba(0,0,0,0.3)
+}
