@@ -21,5 +21,4 @@ class QuestionsCRUD(CRUD[model.Questions, schemas.QuestionsIn, schemas.Questions
         return database.query(model.Alternatives.is_correct).filter_by(alternative=answer).first()[0]
 
 
-
 questions = QuestionsCRUD(model.Questions)
